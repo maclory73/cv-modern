@@ -4,22 +4,23 @@
       display: grid;
       min-height: $minHeight;
       grid-template-columns: 1fr;
-      grid-template-rows: 50px 1fr;
+      grid-template-rows: 44px 1fr;
       grid-template-areas: 
         "1"
         "2";
+        
     }
   
     .radioDisplay {
       grid-area: 1;
-      border-radius: $borderRadius;
+      box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
       display: flex;
-      width: 100%;
+      width: 98.68%;
       padding: 1rem 2rem;
-      margin: 0 auto;
+      margin: 6px 6px;
       background: $color-1;
       user-select: none;
-      box-shadow: $shadow;
+      
   
       li {
         color: $color-3;
@@ -77,6 +78,7 @@
       }
     }
     .projects {
+      width: 100%;
       grid-area: 2;
       display: flex;
       flex-wrap: wrap;
@@ -84,13 +86,13 @@
   
       .project {
         background: $color-2;
-        border-radius: $borderRadius;
-        margin: 0.5rem 0 0 0;
+        box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
+        margin: 6px;
         text-align: center;
         width: 32%;
         max-height: 50%;
-        padding: .3rem;
-        box-shadow: $shadow;
+        padding: .5rem;
+        gap: 5px;
         display: grid;
         grid-template-rows: 15% 15% 55% 15%;
         grid-template-areas: 
@@ -113,6 +115,7 @@
         }
       }
       h3 {
+        color: $white;
         grid-area: 2;
         font-family: $font-2;
         font-size: 1.65rem;

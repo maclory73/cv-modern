@@ -4,17 +4,17 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #140c8d;
-$color-2: #0756af;
-$color-3: rgb(99, 164, 233);
-$color-4: #4FEDD2;
-$color-5: #36D0EA;
+$color-1: #3b3b3b;
+$color-2: rgb(44, 44, 44);
+$color-3: rgb(233, 202, 99);
+$color-4: #ecee93;
+$color-5: #d6da19;
 $white: #ddd;
 $black: #333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$minHeight: 95vh;
+$minHeight: 94vh;
 
 @mixin verticalCenter {
   display: flex;

@@ -15,7 +15,7 @@ const Contact = () => {
                    <ul>
                        <li className="fas fa-map-marker-alt"></li>
                        <span>
-                           Aix-les-Bains
+                           Aix-les-Bains. 73100
                        </span>
                        <li>
                            <i class="fas fa-mobile-alt"> </i>

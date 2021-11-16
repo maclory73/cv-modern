@@ -6,7 +6,7 @@
       min-height: $minHeight;
       width: 100%;
       min-height: 500px;
-      box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
+      box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
       position: relative;
       overflow: hidden;
       
@@ -18,7 +18,7 @@
         background: url('../../media/matronche2.jpg') no-repeat center/cover;
         background-position: 70px -200px;
         z-index: -1;
-        filter: brightness(40%);
+        filter: brightness(80%);
         
       }
   
@@ -41,10 +41,10 @@
           color: $color-3;
           text-shadow: 1px 4px 1px $black;
         }
-        .pdf {
+        
           a {
-            font-size: 1.5rem;
-            color: $white;
+            font-size: 1.2rem;
+            color: white;
             padding: 1rem 2rem;
             border-radius: $borderRadius;
             box-shadow: 0 5px 1px rgb(15, 15, 15);
@@ -53,14 +53,14 @@
             &:hover {
               background: $color-4;
             }
-          }
+          
         }
       }
     }
   }
   @media screen and (max-width: 850px){
-    .homeContent {
-      margin: 0 !important;
+    .sidebar {
+      margin-bottom: 10px !important ;
     }
   }
   @media screen and (max-width:580px){

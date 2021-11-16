@@ -1,21 +1,21 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'ipsum.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project1.JPG'
+    name: 'volha-design.fr',
+    languages: ['React','css','Symfony'],
+    languagesIcons: ['fab fa-react','fab fa-css3-alt','fab fa-symfony'],
+    source: 'https://github.com/maclory73/olgadesignsite',
+    info: 'Site e-commerce de produit fait main en France, avec une architecture Symfony/React en cours de développement sur mon temp libre',
+    picture: './media/project1.png'
   },
   {
     id: 2,
-    name: 'lorem.fr',
-    languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project2.JPG'
+    name: 'holistiqua.fr',
+    languages: ['css','React'],
+    languagesIcons: ['fab fa-css3-alt','fab fa-react'],
+    source: 'https://github.com/maclory73/dodo-showroom',
+    info: "Site vitrine projet de stage dans le cadre de ma formation, dont le but premier était d'être léger possible tout en comportant un certain nombres d'éffets divers. Puis de servir de relaie entre les différents sites et réseaux sociaux.",
+    picture: './media/project2.png'
   },
   {
     id: 3,

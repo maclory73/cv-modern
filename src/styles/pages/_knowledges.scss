@@ -20,7 +20,7 @@
       background: $color-2;
       
       padding: .8rem;
-      box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
+      box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
       width: 92%;
       box-sizing: content-box;
     }
@@ -115,6 +115,7 @@
     .experience {
       color: $white;
       grid-area: E;
+      margin-bottom: 8px;
       margin-top: 6px;
       margin-left: 14px;
       display: grid;
@@ -146,14 +147,17 @@
       .exp-2 {
         grid-area: 3;
       }
+
+      
     }
     .otherSkills {
       grid-area: O;
       margin-top: 2px;
       color: $white;
+      width: 90.5%;
       .list {
         display: flex;
-        width: 80%;
+        width: 76%;
         height: 100%;
         margin: 0 auto;
         justify-content: space-between;
@@ -220,25 +224,34 @@
   }
 }
 @media screen and (max-width: 500px){
+  
   .knowledgesContent {
     display: grid !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr 180px 180px !important;
     
-    .languages {
+    .languagesFrameworks {
+      
+      height: 90% !important;
       grid-area: 1 !important;
+      margin-bottom: 35px !important;
     }
     .experience {
+      margin-top: 1px !important;
       grid-area: 2 !important;
-      margin-left: 0 !important;
+      margin-left: 6px !important;
     }
     .otherSkills {
-      grid-area: 3 !important;
-      margin-right: 0 !important;
+      grid-area: 3 !important;      
+      margin-top: 3px !important;
+      width: 92% !important;
     }
     .hobbies {
       grid-area: 4 !important;
-      margin-top: .5rem !important;
+      margin-left: 6px  !important;
+      margin-right: 0 !important;
+      width: 89.5% !important;
+      margin-top: 5px !important;
     }
   }
 }

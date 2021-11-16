@@ -13,7 +13,7 @@
   
     .radioDisplay {
       grid-area: 1;
-      box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
+      box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
       display: flex;
       width: 98.68%;
       padding: 1rem 2rem;
@@ -86,7 +86,7 @@
   
       .project {
         background: $color-2;
-        box-shadow: 0 0 0 2px $color-4, 0 0 0 4px $color-3, 0 0 0 6px $color-4;
+        box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
         margin: 6px;
         text-align: center;
         width: 32%;

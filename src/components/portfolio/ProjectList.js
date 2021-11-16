@@ -8,10 +8,10 @@ export default class ProjectList extends Component {
         radios: [
             {id: 1, value: "css"},
             {id: 2, value: "php"},
-            {id: 3, value: "javascript"},
+            {id: 3, value: "React"},
             {id: 4, value: "symfony"}
         ],
-        selectedRadio: 'javascript'
+        selectedRadio: 'React'
     };
 
     handleRadio = (event) => {

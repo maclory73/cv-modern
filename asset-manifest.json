@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cv-modern/static/css/main.ded6e51b.chunk.css",
+    "main.js": "/cv-modern/static/js/main.38fd76c4.chunk.js",
+    "main.js.map": "/cv-modern/static/js/main.38fd76c4.chunk.js.map",
+    "runtime-main.js": "/cv-modern/static/js/runtime-main.14a6b5fe.js",
+    "runtime-main.js.map": "/cv-modern/static/js/runtime-main.14a6b5fe.js.map",
+    "static/js/2.09fdb44a.chunk.js": "/cv-modern/static/js/2.09fdb44a.chunk.js",
+    "static/js/2.09fdb44a.chunk.js.map": "/cv-modern/static/js/2.09fdb44a.chunk.js.map",
+    "static/js/3.e595a2f9.chunk.js": "/cv-modern/static/js/3.e595a2f9.chunk.js",
+    "static/js/3.e595a2f9.chunk.js.map": "/cv-modern/static/js/3.e595a2f9.chunk.js.map",
+    "index.html": "/cv-modern/index.html",
+    "static/css/main.ded6e51b.chunk.css.map": "/cv-modern/static/css/main.ded6e51b.chunk.css.map",
+    "static/js/2.09fdb44a.chunk.js.LICENSE.txt": "/cv-modern/static/js/2.09fdb44a.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/cv-modern/static/media/shape.953aa150.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14a6b5fe.js",
+    "static/js/2.09fdb44a.chunk.js",
+    "static/css/main.ded6e51b.chunk.css",
+    "static/js/main.38fd76c4.chunk.js"
+  ]
+}

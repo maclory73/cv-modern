@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     name: 'volha-design.fr',
-    languages: ['React','css','Symfony'],
+    languages: ['React','css','symfony'],
     languagesIcons: ['fab fa-react','fab fa-css3-alt','fab fa-symfony'],
     source: 'https://github.com/maclory73/olgadesignsite',
     info: 'Site e-commerce de produit fait main en France, avec une architecture Symfony/React en cours de développement sur mon temp libre',
@@ -14,43 +14,43 @@ export const portfolioData = [
     languages: ['css','React'],
     languagesIcons: ['fab fa-css3-alt','fab fa-react'],
     source: 'https://github.com/maclory73/dodo-showroom',
-    info: "Site vitrine projet de stage dans le cadre de ma formation, dont le but premier était d'être léger possible tout en comportant un certain nombres d'éffets divers. Puis de servir de relaie entre les différents sites et réseaux sociaux.",
+    info: "Site vitrine projet de stage dans le cadre de ma formation, dont le but premier était d'être léger tout en comportant un certain nombres d'effets divers. Puis de servir de relaie entre les différents sites et réseaux sociaux de la cliente",
     picture: './media/project2.png'
   },
   {
     id: 3,
-    name: 'dolorset.fr',
+    name: 'BlogPromo',
     languages: ['javascript','php','css'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project3.JPG'
+    source: 'https://github.com/maclory73/blogpromo',
+    info: 'Développement du blog de la promo avec création de thème Wordpress',
+    picture: './media/imgblog1.1.png'
   },
   {
     id: 4,
-    name: 'laboriosam.fr',
-    languages: ['javascript','php','react'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
+    name: 'ApiSki',
+    languages: ['Vue.js','php','css'],
+    languagesIcons: ['fab fa-vuejs','fab fa-php','fab fa-css3-alt'],
+    source: 'https://github.com/pierre01470/ski',
+    info: ' Développement d\'une Api type dashboard de compétition de ski pour organisateur. Vue en temp réel des liste de compétiteurs selon la catégorie ainsi que le lieu de la course. Exporté en Excel pour inscrire les temps puis renvoyé sur l\'application avec la moyenne des deux courses. Pour finalement afficher les classements de manière très dynamique grace à Vue.js.     ',
+    picture: './media/apiski2.png'
   },
   {
     id: 5,
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
+    name: 'Kikinenveu ?',
+    languages: ['javascript','php','css'],
+    languagesIcons: ['fab fa-js','fab fa-php', 'fab fa-css3-alt'],
+    source: 'https://github.com/Thomasv07/petites_annonces',
+    info: 'Création d\'un site de petite annonce du type "leboncoin". Projet phare de l\'apprentissage du MVC avec une gestion des requêtes Ajax et la particularité d\'être intégré avec twigg.',
+    picture: './media/kikinenveu1.png'
   },
   {
     id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
+    name: 'Gîtes de Savoie',
+    languages: ['javascript','php', 'css'],
+    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
+    source: 'https://github.com/Nabile01/Projet-G-tes',
+    info: 'Premier projet de groupe dans le cadre de ma formation. Développement d\'un site de réservation de gîtes, première introduction à la programmation orienté objet POO. Avec gestion des disponibilité et réservation.',
+    picture: './media/project6.pnG'
   },
 ]

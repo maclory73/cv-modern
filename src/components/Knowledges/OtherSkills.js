@@ -13,10 +13,10 @@ const OtherSkills = () => {
                         <li><i className="fas fa-check-square"></i>Bahasa indonesia basique</li>
                     </ul>
                     <ul>
-                        <li><i className="fas fa-check-square"></i></li>
-                        <li><i className="fas fa-check-square"></i></li>
-                        <li><i className="fas fa-check-square"></i></li>
-                        <li><i className="fas fa-check-square"></i></li>
+                        <li><i className="fas fa-check-square"></i>Maquetage d'application</li>
+                        <li><i className="fas fa-check-square"></i>Esprit d'équipe et autonome.</li>
+                        <li><i className="fas fa-check-square"></i>Travailler avec github/gitlab</li>
+                        <li><i className="fas fa-check-square"></i>Initier à docker</li>
                     </ul>
                 </div>
             </div>

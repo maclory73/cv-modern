@@ -50,7 +50,7 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/maclory73" target="_blank" 
+                        <a href="https://github.com/lorycarvajol?tab=repositories" target="_blank" 
                         rel="noopener noreferrer">
                             <i className="fab fa-github"></i>
                         </a>           

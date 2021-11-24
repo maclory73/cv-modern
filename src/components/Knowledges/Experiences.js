@@ -14,10 +14,7 @@ const Experiences = () => {
                    Développer les composants d'accès aux données.
                </p>
                <p>
-                   Concevoir une interface web statique et responsive.
-               </p>
-               <p>
-                   Concevoir une interface web dynamique.
+                   Concevoir des interfaces web statique et dynamique responsive.
                </p>
                <p>
                    Développer la partie back-end d'une application web.
@@ -43,7 +40,7 @@ const Experiences = () => {
                <h4>Technicien spécialisé pour Alstom-Areva</h4>
                <h5>2001-2009</h5>
                <p>
-                Montage de sous-ensemble mécanique en atelier "blanc".
+                Montage de sous-ensembles mécanique en "atelier blanc".
             </p>
             <p>
                 Montage des sous-ensembles sur site en France sous la direction du superviseur. 
@@ -51,9 +48,7 @@ const Experiences = () => {
             <p>
                 Capacité à travailler proprement en sécurité en atelier comme en hauteur.
             </p>
-            <p> 
-                Préparation de présentations pour les clients potentiels.
-            </p>
+           
            </div>
         </div>
     );

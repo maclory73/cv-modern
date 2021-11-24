@@ -5,8 +5,8 @@ const Experiences = () => {
         <div className="experience">
            <h3>Expérience</h3>
            <div className="exp-1">
-               <h4>Formation développeur web et appli mobile</h4>
-               <h5>2020-2021</h5>
+               <h4>Formation développeur web et appli mobile 2020-2021</h4>
+               
                <p>
                 Maquetter une application.
                </p>
@@ -24,8 +24,8 @@ const Experiences = () => {
                </p>
            </div>      
            <div className="exp-2">
-               <h4>Evaluateur de moteur de recherche</h4>
-               <h5>2018-2020</h5>
+               <h4>Evaluateur de moteur de recherche 2018-2020</h4>
+               
                 <p>
                     Projet de comparaison de pages de moteur de recherche..
                 </p>
@@ -37,8 +37,8 @@ const Experiences = () => {
                </p>
            </div>
            <div className="exp-3">
-               <h4>Technicien spécialisé pour Alstom-Areva</h4>
-               <h5>2001-2009</h5>
+               <h4>Technicien spécialisé pour Alstom-Areva 2001-2009</h4>
+               
                <p>
                 Montage de sous-ensembles mécanique en "atelier blanc".
             </p>

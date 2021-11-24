@@ -57,7 +57,7 @@ const Navigation = () => {
                     </li>
                 </ul>
                 <div className="signature">
-                   <p>Loryginal et aucun autre </p>
+                   <p>© Lory Carvajol </p>
                 </div>
             </div>
         </div>

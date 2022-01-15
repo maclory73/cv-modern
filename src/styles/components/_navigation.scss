@@ -6,8 +6,9 @@
     font-family: $font-1;  
     min-height: 80vh;
     min-width: 264px;   
-    box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
-    position: relative;
+    border-radius: $borderRadius;
+    border-top: 0.3px solid rgba(255, 255, 240, 0.664);
+      border-left: 0.3px solid rgba(255, 255, 240, 0.685);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 240px 1fr 108px;
@@ -30,8 +31,10 @@
         width: 100%;
   
         img {
-          border-radius: 50%;
-          box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
+          border-radius: 30%;
+          filter: grayscale(100%);
+          opacity: 70%;
+          
         }
         h3 {
           font-size: 1.3rem;

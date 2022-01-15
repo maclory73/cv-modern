@@ -13,14 +13,15 @@
   
     .radioDisplay {
       grid-area: 1;
-      box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
+      border-top: 0.3px solid rgba(255, 255, 240, 0.664);
+      border-left: 0.3px solid rgba(255, 255, 240, 0.685);
       display: flex;
       width: 98.68%;
       padding: 1rem 2rem;
       margin: 6px 6px;
       background: $color-1;
       user-select: none;
-      
+      border-radius: $borderRadius;
   
       li {
         color: $color-3;
@@ -83,10 +84,12 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
-  
+      
       .project {
         background: $color-2;
-        box-shadow: 0 0 0 1px $color-4, 0 0 0 2px $color-3, 0 0 0 3px $color-4;
+        border-radius: $borderRadius;
+        border-top: 0.3px solid rgba(255, 255, 240, 0.664);
+      border-left: 0.3px solid rgba(255, 255, 240, 0.685);
         margin: 6px;
         text-align: center;
         width: 32%;
@@ -130,9 +133,11 @@
         width: 100%;
         height: 55%;
         box-shadow: 0 2px 6px #333;
-        border-radius: 4px;
+        border-radius: 10px;
         cursor: pointer;
         @include verticalCenter;
+        border-top: 0.1px solid rgba(255, 255, 240, 0.664);
+      border-left: 0.1px solid rgba(255, 255, 240, 0.685);
       }
       .infos {
         grid-area: 4;

@@ -11,7 +11,7 @@ const Contact = () => {
 
                </div>
                <div className="contactBox">
-                   <h1>Contactez-moi</h1>
+                   <h1>Me contacter</h1>
                    <ul>
                        <li className="fas fa-map-marker-alt"></li>
                        <span>

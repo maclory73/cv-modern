@@ -42,7 +42,7 @@ const Contact = () => {
                             <h4>Linkedin</h4>
                             <i className="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/maclory73" target="_blank" 
+                        <a href="https://github.com/lorycarvajol" target="_blank" 
                         rel="noopener noreferrer">
                             <h4>Github</h4>
                             <i className="fab fa-github"></i>

@@ -1135,7 +1135,7 @@ body {
   border-radius: 30%;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  opacity: 70%;
+  opacity: 90%;
 }
 
 .sidebar .id .idContent h3 {

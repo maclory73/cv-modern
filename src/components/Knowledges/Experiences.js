@@ -5,10 +5,10 @@ const Experiences = () => {
         <div className="experience">
            <h3>Expérience</h3>
            <div className="exp-1">
-               <h4>Formation développeur web et appli mobile 2020-2021</h4>
+           <h4>Coach/Formateur dev web et web mobile 2022-2022</h4>
                
                <p>
-                -Maquetter une application.
+                -CDD pour Online FormaPro afin de faire la transition entre .
                </p>
                <p>
                    -Développer les composants d'accès aux données.
@@ -24,16 +24,22 @@ const Experiences = () => {
                </p>
            </div>      
            <div className="exp-2">
-               <h4>Evaluateur de moteur de recherche 2018-2020</h4>
+           <h4>Formation développeur web et appli mobile 2020-2021</h4>
                
-                <p>
-                    -Projet de comparaison de pages de moteur de recherche..
-                </p>
-                <p>
-                    -Commenter des jugements en Anglais d'après une guideline complexe.
-                </p>
-                <p>
-                    -Suivre la logique principale du guideline avec des exemples répétitifs.
+               <p>
+                -Maquetter une application.
+               </p>
+               <p>
+                   -Développer les composants d'accès aux données.
+               </p>
+               <p>
+                   -Concevoir des interfaces web statique et dynamique responsive.
+               </p>
+               <p>
+                   -Développer la partie back-end d'une application web.
+               </p>
+               <p>
+                   -Concevoir une interface utilisateur avec wordpress.
                </p>
            </div>
            <div className="exp-3">

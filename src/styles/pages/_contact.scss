@@ -20,7 +20,7 @@
       position: relative;
       background: $color-1;
       height: 340px;
-      opacity:  80%;
+      
       &:before {
         content: '';
         width: 100%;
@@ -47,13 +47,13 @@
       background: $color-5;
       margin: 0 auto;
       padding: 1rem 3rem;
-      z-index: 2;
+      z-index: 100;
       border-radius: $borderRadius;
       box-shadow: 0 3px 10px #333;
       width: 50%;
       min-width: 440px;
       min-height: 200px;
-      opacity: 90%;
+      
   
       h1 {
         text-align: center;

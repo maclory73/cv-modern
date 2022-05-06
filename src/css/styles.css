@@ -78,7 +78,6 @@ a:visited {
   position: relative;
   background: #4b4b4bd1;
   height: 340px;
-  opacity: 80%;
 }
 
 .contactContent .header:before {
@@ -108,14 +107,13 @@ a:visited {
   background: #afafaf;
   margin: 0 auto;
   padding: 1rem 3rem;
-  z-index: 2;
+  z-index: 100;
   border-radius: 25px;
   -webkit-box-shadow: 0 3px 10px #333;
           box-shadow: 0 3px 10px #333;
   width: 50%;
   min-width: 440px;
   min-height: 200px;
-  opacity: 90%;
 }
 
 .contactContent .contactBox h1 {

@@ -53,4 +53,13 @@ export const portfolioData = [
     info: 'Premier projet de groupe dans le cadre de ma formation. Développement d\'un site de réservation de gîtes, première introduction à la programmation orienté objet POO. Avec gestion des disponibilité et réservation.',
     picture: './media/project6.pnG'
   },
+  {
+    id: 7,
+    name: 'Portfolio 2022',
+    languages: ['React', 'php', 'css'],
+    languagesIcons: ['fab fa-css3-alt','fab fa-react','fab fa-php'],
+    source: 'https://github.com/lorycarvajol/portfolio2022',
+    info: 'Portfolio 2022 sur une base d\'api rest PHP pour la partie admin et  React.js pour la partie front.',
+    picture: './media/project7.pnG'
+  }
 ]

@@ -76,7 +76,7 @@ a:visited {
   grid-area: 1;
   width: 100%;
   position: relative;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   height: 340px;
   opacity: 80%;
 }
@@ -130,7 +130,7 @@ a:visited {
   content: '';
   height: 1px;
   width: 50%;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   position: absolute;
   bottom: -25px;
   left: 50%;
@@ -400,7 +400,7 @@ body {
 
 .knowledges .knowledgesContent .languagesFrameworks, .knowledges .knowledgesContent .experience, .knowledges .knowledgesContent .otherSkills, .knowledges .knowledgesContent .hobbies {
   margin: 6px;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   border-top: 0.1px solid rgba(255, 255, 240, 0.664);
   border-left: 0.1px solid rgba(255, 255, 240, 0.685);
   padding: .8rem;
@@ -731,7 +731,7 @@ body {
   width: 98.68%;
   padding: 1rem 2rem;
   margin: 6px 6px;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -866,7 +866,7 @@ body {
   font-size: 1.4rem;
   padding: 0 .35rem;
   color: #afafaf;
-  text-shadow: 0 0px 1px #4b4b4b3d;
+  text-shadow: 0 0px 1px #4b4b4bd1;
 }
 
 .portfolio .projects h3 {
@@ -947,7 +947,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.507);
+  background: rgba(0, 0, 0, 0.163);
   -webkit-animation: popup .3s ease forwards;
           animation: popup .3s ease forwards;
   -webkit-transform-origin: center;
@@ -960,7 +960,7 @@ body {
   width: 600px;
   margin: 0 auto;
   color: #afafaf;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   border-radius: 25px;
   padding: 2rem;
   -webkit-box-shadow: 0 10px 10px #333;
@@ -1003,7 +1003,7 @@ body {
 
 .portfolio .projects .showInfos .button {
   cursor: pointer;
-  color: #4b4b4b3d;
+  color: #4b4b4bd1;
   background: #afafaf;
   border-radius: 25px;
   padding: 1rem;
@@ -1094,7 +1094,7 @@ body {
   margin-top: 6px;
   margin-bottom: 6px;
   color: #ddd;
-  background: #4b4b4b3d;
+  background: #4b4b4bd1;
   font-family: "Nova Round", cursive;
   min-height: 80vh;
   min-width: 264px;
@@ -1212,7 +1212,7 @@ body {
 .sidebar .socialNetwork ul li {
   font-size: 1.5rem;
   background: #afafaf;
-  color: #4b4b4b3d;
+  color: #4b4b4bd1;
   border-radius: 50%;
   padding: .5rem 0.8rem;
   -webkit-transition: .3s;
@@ -1221,7 +1221,7 @@ body {
 }
 
 .sidebar .socialNetwork ul li a:visited {
-  color: #4b4b4b3d;
+  color: #4b4b4bd1;
 }
 
 .sidebar .socialNetwork ul li:nth-child(1) {

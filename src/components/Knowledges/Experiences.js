@@ -11,20 +11,21 @@ const Experiences = () => {
                 -CDD pour Online FormaPro afin de faire la transition entre .
                </p>
                <p>
-                   -Développer les composants d'accès aux données.
+                   -Accompagner des apprenants sur les principes de bases de la programmation en PHP procédurale et POO.
+                </p>
+                <p>
+                   -Accompagner des apprenants afin de maquetter et intégré un site vitrine classique.
+                   </p>
+                   <p>
+                   -Initiation au base de REACT.
+                   </p>
+                   <p>
+                   -Rendre compte de l'évolution de la promo auprès de ma hierachie et pôle emploi.
                </p>
-               <p>
-                   -Concevoir des interfaces web statique et dynamique responsive.
-               </p>
-               <p>
-                   -Développer la partie back-end d'une application web.
-               </p>
-               <p>
-                   -Concevoir une interface utilisateur avec wordpress.
-               </p>
+               
            </div>      
            <div className="exp-2">
-           <h4>Formation développeur web et appli mobile 2020-2021</h4>
+           <h4>Formation développeur web et web mobile 2020-2021</h4>
                
                <p>
                 -Maquetter une application.

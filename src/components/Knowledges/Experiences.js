@@ -5,6 +5,25 @@ const Experiences = () => {
         <div className="experience">
            <h3>Expérience</h3>
            <div className="exp-1">
+           <h4>Apprentis Data-analyste Airbus </h4>
+               
+               <p>
+                    -Mise en place du projet PiltoME.
+               </p>
+               <p>
+                    -Suivi et support des activités du service Manufacturing Engineering.
+               </p>
+               <p>
+                   -Définir le besoin avec le sevice demandeur, établir le contrat d'accord.
+               </p>
+               <p>
+                   -Développer la partie transformation des données direct et calculé.
+               </p>
+               <p>
+                   -Générations des dashboard ainsi que la documentation associer.
+               </p>
+           </div>
+           <div className="exp-2">
            <h4>Coach/Formateur dev web et web mobile 2022-2022</h4>
                
                <p>
@@ -24,25 +43,7 @@ const Experiences = () => {
                </p>
                
            </div>      
-           <div className="exp-2">
-           <h4>Formation développeur web et web mobile 2020-2021</h4>
-               
-               <p>
-                -Maquetter une application.
-               </p>
-               <p>
-                   -Développer les composants d'accès aux données.
-               </p>
-               <p>
-                   -Concevoir des interfaces web statique et dynamique responsive.
-               </p>
-               <p>
-                   -Développer la partie back-end d'une application web.
-               </p>
-               <p>
-                   -Concevoir une interface utilisateur avec wordpress.
-               </p>
-           </div>
+
            <div className="exp-3">
                <h4>Technicien spécialisé pour Alstom-Areva 2001-2009</h4>
                

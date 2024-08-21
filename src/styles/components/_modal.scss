@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8); // Assurez-vous que le fond du modal est sombre et semi-transparent
+    background: rgba(0, 0, 0, 0.7); // Fond sombre et semi-transparent pour l'effet de surimpression
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,34 +14,42 @@
 }
 
 .modal-content {
-    background: #2a2a2a; // Correspond au fond sombre de votre application
-    padding: 20px;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 70%;
-    height: 60%;
-    max-height: 60%;
-    width: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    color: #fff; // Texte en blanc pour correspondre au style général
-    border: 1px solid #444; // Une bordure subtile pour bien délimiter le modal
-    font-family: 'Arial', sans-serif; // Assurez-vous d'utiliser la même police que le reste de l'application
+    background: #2a2a2a; // Fond sombre pour correspondre au thème global
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 8px 8px 20px #1a1a1a, -8px -8px 20px #3a3a3a; // Ombres pour effet neumorphique
+    color: #fff;
+    border: 1px solid #444;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-content:hover {
+    transform: translateY(-5px); // Légère élévation au survol pour un effet interactif
+    box-shadow: 12px 12px 25px #1a1a1a, -12px -12px 25px #3a3a3a;
 }
 
 .close-button {
-    background: #007bff;
-    color: white;
+    background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+    color: #0affef; // Couleur néon pour le texte du bouton
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
-    margin-top: 20px;
     position: absolute;
     right: 20px;
     top: 20px;
     font-size: 14px;
+    box-shadow: 4px 4px 10px #1a1a1a, -4px -4px 10px #3a3a3a;
+    text-shadow: 0 0 5px #0affef, 0 0 10px #0affef, 0 0 20px #0affef;
+    transition: all 0.3s ease;
 }
 
 .close-button:hover {
-    background: #0056b3; // Ajouter un effet de survol cohérent
+    background: linear-gradient(145deg, #2a2a2a, #3a3a3a);
+    box-shadow: 0 0 10px #0affef, 0 0 20px #0affef, 0 0 40px #0affef;
+    color: #fff;
 }

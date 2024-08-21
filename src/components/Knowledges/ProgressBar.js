@@ -10,6 +10,8 @@ const ProgressBar = (props) => {
                 <span>1 an</span>
                 <span>2 Ans</span>
                 <span>3 Ans </span>
+                <span>4 Ans </span>
+                <span>5 Ans </span>
             </div>
 
             <div>

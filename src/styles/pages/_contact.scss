@@ -1,7 +1,9 @@
 .contactContent {
-  margin: 6px 12px;
-  background: $color-2;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.116);
   border-radius: $borderRadius;
+  border-top: 0.3px solid rgba(255, 255, 240, 0.664);
+  border-left: 0.3px solid rgba(255, 255, 240, 0.685);
   width: 100%;
   overflow: hidden;
   display: grid;
@@ -11,65 +13,81 @@
     "1"
     "2"
     "3";
-  border-top: 0.3px solid rgba(255, 255, 240, 0.664);
-  border-left: 0.3px solid rgba(255, 255, 240, 0.685);
+  padding: 20px;
+  // backdrop-filter: blur(10px); // Glass effect
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  
 
   .header {
     grid-area: 1;
     width: 100%;
     position: relative;
-    background: bl;
     height: 340px;
+    background: rgba(0, 0, 0, 0.116);
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5), inset -5px -5px 10px rgba(50, 50, 50, 0.3);
+
+    .image {
+      height: 60%;
+      width: 100%;
+      border-radius: 15px;
+    }
 
     &:before {
-
       content: '';
       width: 100%;
-      height: 100%;
+      height: 90%;
       position: absolute;
       background: url(../../media/imgslider2.jpg) no-repeat center top/cover;
       background-position: 0px -180px;
       filter: grayscale(100%);
-
+      border-radius: 15px;
     }
 
     &:after {
       content: '';
       width: 100%;
-      height: 100%;
+      height: 85%;
       position: absolute;
       top: 30px;
       background: url(../../media/shape.svg) no-repeat center /cover;
+      border-radius: 15px;
+    }
 
-
+    .gradient {
+      margin-top: 20px;
+      width: 100%;
+      height: 350px;
+      background: rgb(44, 44, 44);
+      background: linear-gradient(180deg, rgba(44, 44, 44, 1) 38%, rgba(44, 44, 44, 0) 95%);
+      border-radius: 15px;
     }
   }
 
   .contactBox {
     grid-area: 2;
-    background: $color-5;
+    background: #2a2a2a;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 100;
-    border-radius: $borderRadius;
-    box-shadow: 0 3px 10px #333;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5), -8px -8px 16px rgba(50, 50, 50, 0.3);
     width: 50%;
     min-width: 440px;
     min-height: 200px;
-
 
     h1 {
       text-align: center;
       margin-top: 0.3rem;
       position: relative;
-      color: $color-2;
-      text-shadow: 0.5px 0.5px 1px rgb(73, 73, 73);
+      color: #0affef;
+      text-shadow: 0px 0px 10px #0affef;
 
       &:after {
         content: '';
         height: 1px;
         width: 50%;
-        background: $color-1;
+        background: #0affef;
         position: absolute;
         bottom: -25px;
         left: 50%;
@@ -85,14 +103,17 @@
 
       li {
         position: relative;
-        text-shadow: 0.5px 0.5px 1px rgb(207, 207, 207);
+        color: #fff;
+        font-size: 1.2rem;
+        text-shadow: 0px 0px 5px #0affef;
       }
 
       i {
         font-size: 1.4rem;
         position: absolute;
         transform: translateY(2px);
-        color: $color-2;
+        color: #0affef;
+        text-shadow: 0px 0px 10px #0affef;
       }
 
       span {
@@ -103,8 +124,8 @@
         border: none;
         outline: none;
         width: 350px;
-        transition: .2s ease;
-        text-shadow: 0.5px 0.5px 1px rgb(136, 136, 136);
+        transition: 0.2s ease;
+        text-shadow: 0px 0px 5px #0affef;
       }
 
       .clickInput:hover {
@@ -116,7 +137,9 @@
 
   .socialNetwork {
     grid-area: 3;
-    @include verticalCenter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     ul {
       display: flex;
@@ -127,54 +150,35 @@
       a {
         width: 20%;
         font-size: 1.2rem;
-        background: $color-5;
-        border-radius: $borderRadius;
+        background: #2a2a2a;
+        border-radius: 15px;
         display: inline-block;
         padding: 0.7rem 0;
-        box-shadow: $shadow;
-        transform: scaleY(0);
-        transform-origin: center;
-        transition: .2s ease;
-        transition: scale .1s;
-        text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+        box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5), -8px -8px 16px rgba(50, 50, 50, 0.3);
+        transition: all 0.3s ease;
 
         &:hover {
-          background: $color-4;
+          background: #0affef;
+          color: #fff;
+          box-shadow: 0px 0px 20px #0affef;
+          h4 {
+            color: #0a0a0a;
+          }
+          i{
+            color: #131313;
+          }
         }
 
         i {
-          color: $color-2;
-          margin-top: .3rem;
+          color: #0affef;
+          margin-top: 0.3rem;
+          text-shadow: 0px 0px 10px #0affef;
         }
-      }
 
-      //ANIMATION
-      @mixin networkAnim($timeout) {
-        animation: pop 1s forwards;
-        animation-delay: $timeout;
-
-      }
-
-      @keyframes pop {
-        to {
-          transform: scaleY(1);
+        h4 {
+          color: #0affef;
+          text-shadow: 0px 0px 10px #0affef;
         }
-      }
-
-      a:nth-child(1) {
-        @include networkAnim(.4s);
-      }
-
-      a:nth-child(2) {
-        @include networkAnim(.8s);
-      }
-
-      a:nth-child(3) {
-        @include networkAnim(1.2s);
-      }
-
-      a:nth-child(4) {
-        @include networkAnim(1.6s);
       }
     }
   }
@@ -191,16 +195,15 @@
     height: 800px;
 
     .contactBox {
-
       min-width: 100% !important;
     }
 
     span {
-      font-size: .9rem !important;
+      font-size: 0.9rem !important;
     }
 
     h4 {
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
   }
 }

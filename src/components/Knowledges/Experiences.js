@@ -25,7 +25,9 @@ const Experiences = () => {
                 <h3>Expérience</h3>
 
                 <div className="exp-1">
-                    <h4>Apprentis Data-analyste Airbus</h4>
+                    <h4>Apprentis Data-analyste Airbus 2022 / 2024</h4>
+                    <p>- Mise en place du projet PiltoME.</p>
+                            <p>- Suivi et support des activités du service Manufacturing Engineering.</p>
                     <button className="experience-button" onClick={() => openModal('Apprentis Data-analyste Airbus', (
                         <>
                             <p>- Mise en place du projet PiltoME.</p>
@@ -40,14 +42,15 @@ const Experiences = () => {
                 </div>
 
                 <div className="exp-2">
-                    <h4>Coach/Formateur dev web et web mobile 2022-2022</h4>
+                    <h4>Coach/Formateur dev web et web mobile 2022 / 2022</h4>
+                    <p>Formateur en développement web et mobile</p>
+                    <p>Responsable du site de formation de Saint-Baldoph.</p>
                     <button className="experience-button" onClick={() => openModal('Coach/Formateur dev web et web mobile 2022-2022', (
                         <>
-                            <p>- CDD pour Online FormaPro afin de faire la transition entre.</p>
-                            <p>- Accompagner des apprenants sur les principes de base de la programmation en PHP procédurale et POO.</p>
-                            <p>- Accompagner des apprenants afin de maquetter et intégrer un site vitrine classique.</p>
-                            <p>- Initiation aux bases de REACT.</p>
-                            <p>- Rendre compte de l'évolution de la promo auprès de ma hiérarchie et pôle emploi.</p>
+                            <p>- Formateur en développement web et applications mobiles.
+                                Responsable du site de formation de Saint-Baldoph.
+                                Activités de freelance à distance pour des organismes de formation à travers toute la France, proposant des modules sur React, PostgreSQL, PHP, programmation orientée objet, et une initiation aux métiers du web, en partenariat avec l'association SR3.
+                            </p>
                         </>
                     ))}>
                         Voir plus
@@ -55,11 +58,13 @@ const Experiences = () => {
                 </div>
 
                 <div className="exp-3">
-                    <h4>Technicien spécialisé pour Alstom-Areva 2001-2009</h4>
+                    <h4>Monteur - Cableur Alstom-Areva 2001 / 2009</h4>
+                    <p>- Montage de sous-ensembles mécaniques en "atelier blanc".</p>
+                            <p>- Montage de postes sur site sous la direction du superviseur.</p>
                     <button className="experience-button" onClick={() => openModal('Technicien spécialisé pour Alstom-Areva 2001-2009', (
                         <>
                             <p>- Montage de sous-ensembles mécaniques en "atelier blanc".</p>
-                            <p>- Montage des sous-ensembles sur site en France sous la direction du superviseur.</p>
+                            <p>- Montage de postes sur site sous la direction du superviseur.</p>
                             <p>- Capacité à travailler proprement en sécurité en atelier comme en hauteur.</p>
                         </>
                     ))}>

@@ -7,13 +7,17 @@ const Contact = () => {
         <div className="contact">
             <Navigation />
             <div className="contactContent">
-                <div className="header"></div>
+                <div className="header">
+                <div className='image'></div>
+                <div className='gradient'></div>
+                </div>
+                
                 <div className="contactBox">
                     <h1>Me contacter</h1>
                     <ul>
                         <li>
                             <i className="fas fa-map-marker-alt"></i>
-                            <span>Aix-les-Bains. 73100</span>
+                            <span>Blagnac - 31700</span>
                         </li>
                         <li>
                             <i className="fas fa-mobile-alt"></i>
@@ -42,7 +46,9 @@ const Contact = () => {
                             </CopyToClipboard>
                         </li>
                     </ul>
+                    
                 </div>
+                
                 <div className="socialNetwork">
                     <ul>
                         <a

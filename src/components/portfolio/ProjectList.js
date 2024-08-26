@@ -6,7 +6,7 @@ export default class ProjectList extends Component {
     state = {
         projects:portfolioData,
         radios: [
-            {id: 1, value: "css"},
+            {id: 1, value: "Python"},
             {id: 2, value: "php"},
             {id: 3, value: "React"},
             {id: 4, value: "symfony"}

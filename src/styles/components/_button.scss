@@ -1,0 +1,65 @@
+// Variables globales (vous pouvez les définir ailleurs si elles existent déjà)
+$primary-color: #0affef;
+$background-color: #2a2a2a;
+$hover-background-color: #3a3a3a;
+$button-shadow: 4px 4px 10px #1a1a1a, -4px -4px 10px #3a3a3a;
+$hover-shadow: 0 0 10px $primary-color, 0 0 20px $primary-color, 0 0 40px $primary-color;
+$button-radius: 50px;
+$button-padding: 0.6rem 1rem;
+$button-font-size: 0.6rem;
+$button-text-shadow: 0 0 5px $primary-color, 0 0 10px $primary-color, 0 0 20px $primary-color;
+
+.button {
+  display: inline-block;
+  background: linear-gradient(145deg, $background-color, $hover-background-color);
+  color: $primary-color;
+  border: none;
+  padding: $button-padding;
+  border-radius: $button-radius;
+  cursor: pointer;
+  font-size: $button-font-size;
+  box-shadow: $button-shadow;
+  text-shadow: $button-text-shadow;
+  transition: all 0.3s ease;
+  text-align: center;
+  text-transform: uppercase;
+  width: 85px;
+
+  &:hover {
+    background: linear-gradient(145deg, $hover-background-color, $background-color);
+    box-shadow: $hover-shadow;
+    color: #fff;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    background: $primary-color;
+    color: $background-color;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.1);
+  }
+
+  &.large {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  &.small {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  &.primary {
+    background: $primary-color;
+    color: $background-color;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.1);
+
+    &:hover {
+      background: darken($primary-color, 10%);
+      color: #fff;
+      box-shadow: $hover-shadow;
+    }
+  }
+}

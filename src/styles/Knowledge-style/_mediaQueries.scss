@@ -1,0 +1,68 @@
+@media screen and (max-width: 950px) {
+     .knowledgesContent {
+       h3 {
+         font-size: 1.2rem !important;
+       }
+   
+       .languagesList {
+         padding-top: .2rem !important;
+       }
+   
+       p {
+         font-size: .8rem;
+       }
+   
+       .otherSkills,
+       .hobbies {
+         font-size: .8rem;
+       }
+     }
+   }
+   
+   @media screen and (max-width: 850px) {
+     .knowledgesContent {
+       h4 {
+         font-size: .9rem !important;
+       }
+   
+       h5 {
+         font-size: .6rem !important;
+         padding: .2rem 1rem !important;
+       }
+     }
+   }
+   
+   @media screen and (max-width: 500px) {
+     .knowledgesContent {
+       display: grid !important;
+       grid-template-columns: 1fr !important;
+       grid-template-rows: 1fr 1fr 180px 180px !important;
+   
+       .languagesFrameworks {
+         height: 90% !important;
+         grid-area: 1 !important;
+         margin-bottom: 35px !important;
+       }
+   
+       .experience {
+         margin-top: 1px !important;
+         grid-area: 2 !important;
+         margin-left: 6px !important;
+       }
+   
+       .otherSkills {
+         grid-area: 3 !important;
+         margin-top: 3px !important;
+         width: 92% !important;
+       }
+   
+       .hobbies {
+         grid-area: 4 !important;
+         margin-left: 6px !important;
+         margin-right: 0 !important;
+         width: 89.5% !important;
+         margin-top: 5px !important;
+       }
+     }
+   }
+   

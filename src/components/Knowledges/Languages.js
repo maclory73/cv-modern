@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProgressBar from './ProgressBar';
-import Modal from '../Modal';
+import Modal from './Modal';
 
 class Languages extends Component {
     state = {
@@ -18,55 +18,58 @@ class Languages extends Component {
         ],
         isLanguageModalOpen: false,
         isFrameworkModalOpen: false,
-    }
+    };
 
+    toggleLanguageModal = () => {
+        this.setState(prevState => ({
+            isLanguageModalOpen: !prevState.isLanguageModalOpen,
+        }));
+    };
 
+    toggleFrameworkModal = () => {
+        this.setState(prevState => ({
+            isFrameworkModalOpen: !prevState.isFrameworkModalOpen,
+        }));
+    };
 
     render() {
-        let { languages, frameworks, isLanguageModalOpen, isFrameworkModalOpen } = this.state;
+        const { languages, frameworks, isLanguageModalOpen, isFrameworkModalOpen } = this.state;
+
         return (
             <div className="languagesFrameworks">
-                <ProgressBar
-                    languages={languages}
-                    className="languagesDisplay"
-                    title="Languages"
-                />
-                {/* <button className="viewMoreButton" onClick={this.toggleLanguageModal}>
-                    Voir plus pour Languages
-                </button> */}
+                <div className="languagesDisplay">
+                    <h3>Langages</h3>
+                    <ProgressBar
+                        languages={languages}
+                        title="Languages"
+                    />
+                    <button className="button" onClick={this.toggleLanguageModal}>
+                        Voir plus
+                    </button>
+                </div>
 
-                <ProgressBar
-                    languages={frameworks}
-                    title="Frameworks & Bibliothèques"
-                    className="frameworksDisplay"
-                />
-                {/* <button className="viewMoreButton" onClick={this.toggleFrameworkModal}>
-                    Voir plus pour Frameworks
-                </button> */}
+                <div className="frameworksDisplay">
+                    <h3>Frameworks & Bibliothèques</h3>
+                    <ProgressBar
+                        languages={frameworks}
+                        title="Frameworks & Bibliothèques"
+                    />
+                    <button className="button" onClick={this.toggleFrameworkModal}>
+                        Voir plus
+                    </button>
+                </div>
 
-                {/* Modal pour les langages */}
-                {/* {isLanguageModalOpen && (
-                    <Modal closeModal={this.toggleLanguageModal}>
-                        <h2>Détails des Langages</h2>
-                        <ul>
-                            {languages.map((lang) => (
-                                <li key={lang.id}>{lang.value} - {lang.xp} ans d'expérience</li>
-                            ))}
-                        </ul>
+                {isLanguageModalOpen && (
+                    <Modal show={isLanguageModalOpen} onClose={this.toggleLanguageModal} title="Détails des Langages">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc non ipsum.</p>
                     </Modal>
                 )}
 
-                {/* Modal pour les frameworks */}
                 {isFrameworkModalOpen && (
-                    <Modal closeModal={this.toggleFrameworkModal}>
-                        <h2>Détails des Frameworks</h2>
-                        <ul>
-                            {frameworks.map((fw) => (
-                                <li key={fw.id}>{fw.value} - {fw.xp} ans d'expérience</li>
-                            ))}
-                        </ul>
+                    <Modal show={isFrameworkModalOpen} onClose={this.toggleFrameworkModal} title="Détails des Frameworks">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc non ipsum.</p>
                     </Modal>
-                )} 
+                )}
             </div>
         );
     }

@@ -1,0 +1,45 @@
+.otherSkills {
+     // background: #1e1e1e;
+     // border-radius: 12px;
+     padding: 20px;
+     
+     // box-shadow: inset 6px 6px 12px #141414, inset -6px -6px 12px #282828;
+     // transition: transform 0.3s ease, box-shadow 0.3s ease;
+     background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: inset 1px 1px 0.12px rgba(255, 255, 255, 0.4),
+    1px 1px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  animation: move 5s ease-in-out infinite;
+  background-clip: padding-box;
+     grid-area: O;
+   
+     h3 {
+       margin-bottom: 15px;
+       color: #fff;
+       text-transform: uppercase;
+       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+     }
+   
+     .list {
+          width: 100%;
+          height: 70%;
+          display: flex;
+          justify-content: space-around;
+       ul {
+         li {
+           color: #fff;
+           margin-bottom: 10px;
+           i {
+             color: #0affef;
+             margin-right: 10px;
+           }
+         }
+       }
+     }
+   }
+   

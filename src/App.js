@@ -5,7 +5,8 @@ import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Modal from './components/Modal';
+import Modal from './components/Knowledges/Modal';
+
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);

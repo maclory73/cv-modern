@@ -26,18 +26,20 @@ const App = () => {
   };
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home openModal={openModal} />} />
-        <Route path="/competences" element={<Knowledges />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Modal show={showModal} onClose={closeModal} title={modalTitle}>
-        {modalContent}
-      </Modal>
-    </Router>
+    <div className="App"> {/* This div now covers the entire viewport */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home openModal={openModal} />} />
+          <Route path="/competences" element={<Knowledges />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Modal show={showModal} onClose={closeModal} title={modalTitle}>
+          {modalContent}
+        </Modal>
+      </Router>
+    </div>
   );
 };
 

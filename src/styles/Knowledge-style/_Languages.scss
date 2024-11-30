@@ -1,66 +1,73 @@
 .languagesFrameworks {
-     background: #1e1e1e;
+  background: #1e1e1e;
   border-radius: 12px;
   padding: 20px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: inset 6px 6px 12px #141414, inset -6px -6px 12px #282828;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   grid-area: L;
 
+
   h3 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   }
-   
-     .years {
-       font-size: .65rem;
-       display: flex;
-       justify-content: space-between;
-       color: $white;
-   
-       span {
-         width: 18%; // Ajustement pour 5 ans d'expérience
-         text-align: center;
-   
-         &:first-child {
-           width: 36%;
-           text-align: left;
-         }
-       }
-     }
-   
-     .languagesList {
-       padding-top: .5rem;
-   
-       li {
-         color: $white;
-       }
-   
-       .progressBar {
-         height: .4rem;
-         background: transparent;
-         border-radius: 50px;
-         margin-top: 0.2rem;
-         position: relative;
-   
-         &:after {
-           content: '';
-           position: absolute;
-           background: $color-3;
-           border-radius: 50px;
-           height: .4rem;
-           width: 0;
-           animation: line 2s ease-out forwards;
-   
-           @keyframes line {
-             to {
-               width: 100%;
-             }
-           }
-         }
-       }
-     }
-   }
-   
+
+  .button {
+    margin-top: 10px;
+    margin-left: 70%;
+  }
+
+  .years {
+    font-size: .65rem;
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+
+    span {
+      width: 18%; // Ajustement pour 5 ans d'expérience
+      text-align: center;
+
+      &:first-child {
+        width: 36%;
+        text-align: left;
+      }
+    }
+  }
+
+  .languagesList {
+    padding-top: .5rem;
+
+    li {
+      color: $white;
+    }
+
+    .progressBar {
+      height: .4rem;
+      background: transparent;
+      border-radius: 50px;
+      margin-top: 0.2rem;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        background: $color-3;
+        border-radius: 50px;
+        height: .4rem;
+        width: 0;
+        animation: line 2s ease-out forwards;
+
+        @keyframes line {
+          to {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

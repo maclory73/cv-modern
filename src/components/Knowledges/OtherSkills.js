@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import Modal from '../common/Modal';
+import Glassbox from '../common/Glassbox';
 
 const OtherSkills = () => {
     const [showModal, setShowModal] = useState(false);
@@ -10,6 +11,7 @@ const OtherSkills = () => {
 
     return (
         <>
+            <Glassbox>
             <div className="otherSkills">
                 <h3>Autres compétences</h3>
                 <div className="list">
@@ -35,7 +37,8 @@ const OtherSkills = () => {
                 <Modal show={showModal} onClose={toggleModal} title="Compétences supplémentaires">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc non ipsum.</p>
                 </Modal>
-            )}
+                )}
+            </Glassbox>
         </>
     );
 };

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProgressBar from './ProgressBar';
-import Modal from './Modal';
+import Modal from '../common/Modal';
 
 class Languages extends Component {
     state = {
@@ -38,7 +38,7 @@ class Languages extends Component {
         return (
             <div className="languagesFrameworks">
                 <div className="languagesDisplay">
-                    <h3>Langages</h3>
+
                     <ProgressBar
                         languages={languages}
                         title="Languages"
@@ -49,7 +49,7 @@ class Languages extends Component {
                 </div>
 
                 <div className="frameworksDisplay">
-                    <h3>Frameworks & Bibliothèques</h3>
+
                     <ProgressBar
                         languages={frameworks}
                         title="Frameworks & Bibliothèques"

@@ -17,7 +17,7 @@ const Contact = () => {
                     <ul>
                         <li>
                             <i className="fas fa-map-marker-alt"></i>
-                            <span>Blagnac - 31700</span>
+                            <span>Aix-les-Bains Savoie</span>
                         </li>
                         <li>
                             <i className="fas fa-mobile-alt"></i>

@@ -1,4 +1,6 @@
+@import './App.scss';
 @import './settings';
+
 @import './pages/contact';
 @import './pages/home';
 @import './pages/knowledges';
@@ -7,4 +9,5 @@
 @import './components/navigation';
 @import './components/button';
 @import './knowledge-style/Knowledge';
-
+@import './components/glassbox';
+@import './components/modal';

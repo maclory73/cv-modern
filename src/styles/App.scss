@@ -1,0 +1,34 @@
+// src/styles/App.scss
+
+.App {
+    // Base styles
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden; // Prevent horizontal scrolling
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    // For large screens (desktops)
+    @media (min-width: 1024px) {
+        padding: 40px; // Adjust padding for larger screens
+    }
+
+    // For medium screens (tablets)
+    @media (min-width: 768px) and (max-width: 1023px) {
+        padding: 30px;
+    }
+
+    // For small screens (mobiles)
+    @media (max-width: 767px) {
+        padding: 15px;
+    }
+
+    // Ensuring the content fits well within the viewport
+    >* {
+        flex: 1; // Allowing children to grow to fill available space
+        overflow-y: auto; // Ensure content scrolls within its own area
+    }
+}

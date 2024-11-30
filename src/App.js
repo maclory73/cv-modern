@@ -5,7 +5,7 @@ import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Modal from './components/Knowledges/Modal';
+import Modal from './components/common/Modal';
 
 
 const App = () => {

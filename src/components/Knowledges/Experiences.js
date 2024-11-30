@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import Modal from '../common/Modal';
 
 const Experiences = () => {
     const [showModal, setShowModal] = useState(false);
@@ -33,7 +33,7 @@ const Experiences = () => {
                 </div>
 
                 <div className="exp-2">
-                    <h4>Coach/Formateur dev web et web mobile 2022 / 2022</h4>
+                    <h4>Formation puis Coach/Formateur DWWM 2020 / 2022</h4>
                     <p>Formateur en développement web et mobile</p>
                     <p>Responsable du site de formation de Saint-Baldoph.</p>
                     <button className="button" onClick={() => openModal('Coach/Formateur dev web et web mobile 2022-2022', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel nunc non ipsum. Lorem ipsum dolor sit amet.')}>
